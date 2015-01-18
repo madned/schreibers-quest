@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta charset="utf-8">
-	<title>Schreiber's Quest</title>
-    <link rel="shortcut icon" href="media/favicon.ico">
+	<title>Impact Game</title>
 	<style type="text/css">
 		html,body {
 			background-color: #333;
@@ -22,18 +19,23 @@
 			top: 0;
 			bottom: 0;
 			margin: auto;
-            cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61aAAAADUlEQVQYV2P4//8/IwAI/QL/+TZZdwAAAABJRU5ErkJggg=='),
-            url(media/blank.cur),
-            none !important;
 		}
 	</style>
-    <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+
+	<script type="text/javascript" src="lib/impact/impact.js"></script>
+	<script type="text/javascript" src="lib/game/main.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55872266-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
 	<canvas id="canvas"></canvas>
-    <script type="text/javascript" src="lib/impact/impact.js"></script>
-    <script type="text/javascript" src="lib/game/main.js"></script>
 </body>
 </html>
